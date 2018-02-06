@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" charset="utf-8" src="js/game.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/game.css">
+    <title>六角拼拼</title>
+  </head>
+
+  <body>
+    <div class="outer-container">
+      <div class="score">0</div>
+      <div id="cell-container" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+      <div class="generater-container">
+        <div class="generater" draggable="true">
+          <div class="generater-line">
+            <div id="type-0" class="generater-cell" onmouseover = "checkMouse(this)"></div>
+          </div>
+          <div class="generater-line">
+            <div id= "type-1" class="generater-cell" onmouseover = "checkMouse(this)"></div>
+            <div id= "type-2" class="generater-cell" onmouseover = "checkMouse(this)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+.outer-container {
+  padding-top: 5%;
+}
+
+.line {
+  text-align: center;
+}
+
+.cell {
+  width: 62px;
+  height: 71px;
+  background-size:contain;
+  display: inline-block;
+  margin: -7px 4px;
+  background-image: url("../image/cell.png");
+}
+
+/* cell color */
+.gray {
+  background-image: url("../image/cell-gray.png");
+}
+
+.red {
+  background-image: url("../image/cell-red.png");
+}
+
+.purple {
+  background-image: url("../image/cell-purple.png");
+}
+
+.yellow {
+  background-image: url("../image/cell-yellow.png");
+}
+
+.green {
+  background-image: url("../image/cell-green.png");
+}
+
+.pink {
+  background-image: url("../image/cell-pink.png");
+}
+
+.blue {
+  background-image: url("../image/cell-blue.png");
+}
+
+.white {
+  background-image: url("../image/cell-white.png");
+}
+
+.generater-container {
+  width: 138px;
+  height: 128px;
+  margin: 40px auto;
+  padding: 0;
+}
+
+.generater {
+  padding: 8px 0 0 0;
+}
+
+.generater-cell {
+  width: 62px;
+  height: 71px;
+  background-size:contain;
+  display: inline-block;
+  position: relative;
+  margin: -7px 0px;
+}
+
+.generater-line {
+  position: relative;
+  text-align: center;
+}
+
+#type-1 {
+  position: absolute;
+  left: 3px;
+}
+
+#type-2 {
+  position: absolute;
+  right: 3px;
+}
+
+.type {
+  display: none;
+}
+
+.score {
+  width: 200px;
+  height: 50px;
+  margin-left: 50px;
+  font-size: 30pt;
+}
